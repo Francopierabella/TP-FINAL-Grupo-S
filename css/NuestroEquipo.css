@@ -1,0 +1,63 @@
+body{
+    background-color: #4C000F;
+    font-family:'Montserrat', 'sans-serif';
+    font-weight: bold;
+}
+header{
+    background-color: #DBAA21;
+    width: 100%;
+}
+#NuestroEquipo{
+    text-align: center;
+    margin: 80px;
+    color: #DBAA21;
+    text-decoration: underline solid #DBAA21;
+}
+.contenedor-de-integrantes{
+    margin: 0;
+    display: flex;
+}
+.integrantes{
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #DBAA21;
+    text-align: center;
+    border-radius: 10%;
+    border: 15px solid #906c0a;
+    padding: 20px;
+    margin: 8px;
+}
+.integrantes img{
+    width: 100%;
+    height: 80%;
+    border-radius: 88%;
+}
+.integrantes p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4C000F;
+    padding-bottom: 5px;
+    text-decoration: underline solid #4C000F;
+    font-size: 25px;
+}
+@media (max-width: 768px) {
+    .contenedor-de-integrantes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .integrantes{
+        width: 50%;
+    }
+    .integrantes p{
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
