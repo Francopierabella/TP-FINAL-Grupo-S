@@ -33,7 +33,7 @@ header{
     text-decoration: none;
     font-size: 18px;
     display: block;
-    color: #4c000f;
+    color: #000;
 }
 .nav-items li:hover{
     background-color: #65091c;
